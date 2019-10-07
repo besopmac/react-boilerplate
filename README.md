@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Boilerplate
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and manually enhanced with [eslint](https://eslint.org/), [prettier](https://prettier.io/) and [editorconfig](https://editorconfig.org/).
 
 ## Available Scripts
 
