@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --max-warnings=0",
+    "lint": "eslint src --max-warnings=0",
     "postinstall": "husky install"
   },
   "lint-staged": {
@@ -20,6 +20,7 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^11.1.2",
     "@types/react": "^17.0.24",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^5.0.0-alpha.48",
